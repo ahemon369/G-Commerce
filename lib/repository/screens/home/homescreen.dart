@@ -1,4 +1,4 @@
-import 'package:blinkit_series/repository/widgets/uihelper.dart';
+import 'package:commerce/repository/widgets/uihelper.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -210,7 +210,7 @@ class HomeScreen extends StatelessWidget {
                     Padding(
                       padding: const EdgeInsets.only(right: 60),
                       child: Row(children: [
-                        UiHelper.CustomImage(img: "image 50 (1).png"),
+                        UiHelper.CustomImage(img: "taka.png"),
                         UiHelper.CustomText(text: "79", color: Color(0XFF9C9C9C), fontweight: FontWeight.bold, fontsize: 15)
 
                       ],),

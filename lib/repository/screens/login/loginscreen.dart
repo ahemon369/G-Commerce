@@ -1,5 +1,5 @@
-import 'package:blinkit_series/repository/screens/bottomnav/bottomnavscreen.dart';
-import 'package:blinkit_series/repository/widgets/uihelper.dart';
+import 'package:commerce/repository/screens/bottomnav/bottomnavscreen.dart';
+import 'package:commerce/repository/widgets/uihelper.dart';
 import 'package:flutter/material.dart';
 
 class LoginScreen extends StatelessWidget {
@@ -18,7 +18,7 @@ class LoginScreen extends StatelessWidget {
             height: 20,
           ),
           UiHelper.CustomText(
-              text: "India’s last minute app",
+              text: "Gunabati Official E-commerce App",
               color: Color(0XFF000000),
               fontweight: FontWeight.bold,
               fontsize: 20,
@@ -42,7 +42,7 @@ class LoginScreen extends StatelessWidget {
                     height: 20,
                   ),
                   UiHelper.CustomText(
-                      text: "Sujal",
+                      text: "Emon",
                       color: Color(0XFF000000),
                       fontweight: FontWeight.w500,
                       fontsize: 14),
@@ -50,7 +50,7 @@ class LoginScreen extends StatelessWidget {
                     height: 5,
                   ),
                   UiHelper.CustomText(
-                      text: "78277XXXX",
+                      text: "018XXXXXXXX",
                       color: Color(0XFF9C9C9C),
                       fontweight: FontWeight.bold,
                       fontsize: 14,

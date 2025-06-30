@@ -1,16 +1,18 @@
 import 'dart:async';
 
-import 'package:blinkit_series/domain/constants/appcolors.dart';
-import 'package:blinkit_series/repository/screens/login/loginscreen.dart';
-import 'package:blinkit_series/repository/widgets/uihelper.dart';
+
 import 'package:flutter/material.dart';
+
+import '../../../domain/constants/appColors.dart';
+import '../../widgets/uihelper.dart';
+import '../login/loginscreen.dart';
 
 class SplashScreen extends StatefulWidget{
   @override
   State<SplashScreen> createState() => _SplashScreenState();
 }
 
-class _SplashScreenState extends State<SplashScreen> {
+ class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     super.initState();

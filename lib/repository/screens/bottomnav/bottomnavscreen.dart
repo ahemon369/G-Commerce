@@ -1,8 +1,8 @@
-import 'package:blinkit_series/repository/screens/cart/cartscreen.dart';
-import 'package:blinkit_series/repository/screens/category/categoryscreen.dart';
-import 'package:blinkit_series/repository/screens/home/homescreen.dart';
-import 'package:blinkit_series/repository/screens/print/printscreen.dart';
-import 'package:blinkit_series/repository/widgets/uihelper.dart';
+import 'package:commerce/repository/screens/cart/cartscreen.dart';
+import 'package:commerce/repository/screens/category/categoryscreen.dart';
+import 'package:commerce/repository/screens/home/homescreen.dart';
+import 'package:commerce/repository/screens/print/printscreen.dart';
+import 'package:commerce/repository/widgets/uihelper.dart';
 import 'package:flutter/material.dart';
 
 class BottomNavScreen extends StatefulWidget {

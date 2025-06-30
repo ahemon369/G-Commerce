@@ -1,11 +1,11 @@
 import 'dart:async';
 
 
+import 'package:commerce/domain/constants/appColors.dart';
+import 'package:commerce/repository/screens/login/loginscreen.dart';
+import 'package:commerce/repository/widgets/uihelper.dart';
 import 'package:flutter/material.dart';
 
-import '../../../domain/constants/appColors.dart';
-import '../../widgets/uihelper.dart';
-import '../login/loginscreen.dart';
 
 class SplashScreen extends StatefulWidget{
   @override
